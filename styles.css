@@ -1,0 +1,442 @@
+/* STYLES DEL INTERFAST DE LA PAGINA */
+body {
+    background-color:#f1f1f1;
+}
+
+h3,h1,h5 {
+    font-family: 'Crete Round', serif;
+    font-weight: bold;
+    margin-bottom: 2px;
+} h1 {
+    color: #7f2c3d;
+    font-size: 45px;
+    margin-bottom: 20px;
+    -webkit-animation: text-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.5s both;
+	animation: text-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.5s both;
+} h2{
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 2px;
+} i, h3{
+    font-style: oblique;
+    color: #7f2c3d;
+} h5{
+    font-size: 30px;
+    color: #a9833c;
+} b {
+    font-family: 'Crete Round', serif;
+    color: #140205;
+    margin-bottom: 2px;
+    text-align: justify;
+    padding-bottom: 5px;
+    font-size: 20px;
+} li b {
+    font-size: 20px;
+} li b i {
+    font-style: oblique;
+    color: #7f2c3d;
+}
+
+
+a {
+    text-decoration: none;
+    color: #140205;
+} a:hover {
+    color: #a9833c;
+}
+p {
+    font-family: 'Crete Round', serif;
+    color: #140205;
+    font-size: 20px;
+}
+
+.inner {
+    width: 800px;
+    position: relative;
+    margin: 0 auto;
+}
+  
+header {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: #e5d5d5;
+    transition: 0.7s all;
+    z-index: 100;
+
+} header h1 {
+    float: left;
+    margin-top: 32px;
+} header nav {
+    float: right;
+} header nav ul li {
+    display: inline-block;
+    margin-top: 50px;
+} header nav ul li a {
+    color: #140205;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin-right: 20px;
+} header .wrapper img {
+    padding-top: 20px;
+    width: 50px;
+    height: 50px;
+    /* border-radius: 100%; */
+}
+
+.sidenav { /* REDES SOCIALES */
+    height: 100%; 
+    width: 60px; 
+    position: fixed; 
+    z-index: 1;
+    top: 0; 
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 15px;
+} .social-icons {
+    padding-left: 5px;
+    padding-top: 250px;
+    text-align: left;
+} .social-icons img {
+    padding: 0 0 0 0 ;
+    border-radius: 100%;
+    width: 40px;
+    height: 100%;
+} .social-icons img:hover {
+    filter: blur(1px);
+    -webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+article ul{
+    color: #7f2c3d;
+    list-style: circle;
+    text-align: left;
+} article ul li a {
+    color: #140205;
+}
+
+
+.box{ /* FONDO DE IMÁGENES */
+    background: linear-gradient(#f1f1f1, #e5d5d5);
+    padding-top: 50px;
+}
+.box th img{
+    border: 0ch;
+}.box th img:hover {
+    -webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+} .box th center b {
+    padding: 10px 0 10px 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 1px;
+    width: 940px;
+}.wrapper img{
+    padding-top: 20px;
+    padding-right: 10px;
+}.wrapper article {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.present h5{
+    padding-top: 10px;
+    font-size: 30px;
+    color: #a9833c;
+    text-align: left;
+    padding-bottom: 10px;
+} .present h5 hr{
+    border-color: #a9833c;
+}
+
+
+
+/* PIE DE PÁGINA*/
+
+#hero-image {
+    height: 380px;
+    padding-top: 120px;
+    background: color #9d8c90af no-repeat center;
+} #hero-image h2 {
+    margin: 180px 0 40px 0;
+}
+
+#primary-content {
+    padding: 60px 0;
+    text-align: center;
+} #primary-content h1 {
+    border-bottom: 1px solid #140205;
+    padding: 0 0 20px 0;
+} #primary-content a img {
+    margin: 20px 0;
+}
+
+
+/* COMISIONES PRECIOS */
+.precios {
+    display: flex;
+    justify-content: space-around;
+}.precios ul{
+    list-style: none;
+}.precios ul h5{
+    font-size: 20px;
+    text-align: right;
+}.precios .medios-pago-icons {
+    text-align: center;
+} .pagos-icons  img {
+    padding: 0 0 0 0 ;
+    border-radius: 100%;
+    width: 40px;
+    height: 100%;
+} .pagos-icons img:hover {
+    filter: blur(1px);
+    -webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+
+/* COMISIONES RECORTES */
+.recortes {
+    padding-left: 110px;
+    justify-content: space-between;
+}.recortes ul{
+    padding-right: 100px;
+    list-style: none;
+}.recortes ul h5{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.bocetos{
+    /* padding-left: 110px; */
+    justify-content: space-evenly;
+}
+
+.chibis ul{
+    list-style: none;
+}
+.chibis ul li{
+    text-align: center;
+}.chibis ul li i{
+    text-align: center;
+    font-size: 20px;
+}
+
+/* COMISIONES FULL BODY */
+.full-bodys-container{
+    
+    background: linear-gradient(#f1f1f1, #e5d5d5);
+    position: relative;
+    width: 200px;
+}
+
+/* FULL BODY COLAGE DIBUJOS */
+.full-dibj {
+    animation: shake 2500ms linear forwards;
+    animation-iteration-count: infinite;
+}
+
+
+.showcase {
+    white-space: nowrap;
+    animation: bannermove 10s linear infinite;
+    animation-play-state: running;
+    -webkit-animation-play-state: running;
+    animation-direction: alternate-reverse;
+}
+.showcase:hover {
+    -webkit-animation-play-state:paused;
+    -moz-animation-play-state:paused;
+    -o-animation-play-state:paused;
+    animation-play-state:paused;
+}
+.showcase img{
+    height:80%;
+    padding: 0px;
+    transition: transform .2s;
+    filter: saturate(60%);
+}
+.showcase img:hover {
+    filter: drop-shadow(0 0 10px #a9833c);
+} 
+
+
+/* ANIMACIONES EN LOS TEXTOS, IMAGENES Y DEMÁS*/
+
+
+@-webkit-keyframes shadow-drop-2-center { /* SOMBRA DE LAS IMAGES */
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-transform: translateZ(50px);
+              transform: translateZ(50px);
+      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
+  }
+  @keyframes shadow-drop-2-center {
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-transform: translateZ(50px);
+              transform: translateZ(50px);
+      -webkit-box-shadow: 0 0 20px 0px rgba(127, 44, 61, 0.669);
+              box-shadow: 0 0 20px 0px rgba(127, 44, 61, 0.669);
+    }
+}
+
+@-webkit-keyframes text-focus-in { /* ANIMACION DE LOS TITULOS */
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }@keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+}
+
+@keyframes bannermove { /* ANIMACION DE LOS DIBUJOS FULL BODY */ 
+    0%
+    {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-50%, 0);
+    }
+}
+
+
+@keyframes shake { /* ANIMACION DE IMAGEN COLAGGE */
+    5%, 15%, 25%, 35%, 55%, 65%, 75%, 95% {
+        transform: translateY(1px) rotate(0deg);
+    }
+
+    10%, 30%, 40%, 50%, 70%, 80%, 90% {
+        transform: translateY(-1px) rotate(0deg);
+    }
+
+    20%, 60% {
+        transform: translate(-1px, 1px) rotate(0deg);
+    }
+
+    45%, 85% {
+        transform: translate(1px, -1px) rotate(0deg);
+    }
+}
+
+
+/* ANIMACION DE ENTRAR */
+
+@keyframes show {
+    0% {
+        opacity: 0;
+        scale: 25%;
+    }
+    
+    100% {
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+.bloque {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
+}
+
+@keyframes presentation {
+    0% {
+        filter: blur(0%);
+    }
+    100% {
+        filter: blur(100%);
+    }
+}
+
+article .presentation img {
+    display: flex;
+    width: 10px;
+    
+}
+
+.presentation {
+    view-timeline-name: --presentt;
+    view-timeline-axis: block;
+
+    animation-timeline: --psesentt;
+    animation-name: presentation;
+    animation-fill-mode: both;
+
+}
+
+
+.redes {
+    padding-top: 300px;
+  position: absolute;
+  height: 300px;
+  width: 600px;
+  top: 60px;
+  left: calc(50% - 300px);
+  display: flex;
+} .card {
+  display: flex;
+  height: 480px;
+  width: 400px;
+  background-color: #e5d5d5;
+  border-radius: 10px;
+  box-shadow: -1rem 0 3rem #a9833c;
+  transition: 0.4s ease-out;
+  position: relative;
+  left: 0px;
+} .card:not(:first-child) {
+    margin-left: -50px;
+} .card:hover {
+  transform: translateY(-20px);
+  transition: 0.4s ease-out;
+} .card:hover ~ .card {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+} .card h5 {
+  color: #7f2c3d;
+  font-weight: 300;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
